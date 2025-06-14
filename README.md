@@ -41,12 +41,9 @@ pip install -r requirements.txt
 For the weather tool example, you'll need a free API key:
 
 ```bash
-# Get a free API key from https://www.weatherapi.com/
-```bash
 # Create a .env file in the project root
 echo "WEATHER_API_KEY=your_weather_api_key_here" > .env
 # Get a free API key from https://www.weatherapi.com/
-```
 ```
 
 ### VS Code Copilot Integration
