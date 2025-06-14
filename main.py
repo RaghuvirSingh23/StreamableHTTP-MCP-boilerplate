@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+"""
+MCP Server with Streamable HTTP Transport for IDEs
+Provides tools via streamable HTTP interface.
+"""
+
 import asyncio
 import datetime
 import json
