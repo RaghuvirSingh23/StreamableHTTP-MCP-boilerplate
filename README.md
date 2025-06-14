@@ -1,0 +1,1 @@
+# StreamableHTTP-MCP-boilerplate
