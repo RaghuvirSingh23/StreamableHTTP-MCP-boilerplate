@@ -1,0 +1,5 @@
+mcp
+starlette
+uvicorn
+requests
+python-multipart
