@@ -330,7 +330,7 @@ async def handle_health(request):
 app = Starlette(
     routes=[
         Route("/", handle_stream, methods=["POST"]),
-        Route("/mcp", handle_stream, methods=["POST"]),  # VS Code Copilot expects this endpoint
+        Route("/mcp", handle_stream, methods=["POST"]),  # IDEs expect this endpoint
         Route("/health", handle_health, methods=["GET"]),
     ]
 )
